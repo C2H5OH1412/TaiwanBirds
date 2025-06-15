@@ -112,6 +112,7 @@ export default function BirdsPage() {
                 src={videoMap['branch1']}
                 autoPlay
                 muted
+                preload="auto"
                 className="w-40 rounded-lg shadow-lg"
               />
             )}
@@ -140,6 +141,7 @@ export default function BirdsPage() {
                 src={videoMap['branch2']}
                 autoPlay
                 muted
+                preload="auto"
                 className="w-60 rounded-lg shadow-lg" // 放大這裡
               />
             )}
@@ -168,6 +170,7 @@ export default function BirdsPage() {
                 src={videoMap['branch3']}
                 autoPlay
                 muted
+                preload="auto"
                 className="w-40 rounded-lg shadow-lg"
               />
             )}
